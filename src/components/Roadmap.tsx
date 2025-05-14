@@ -78,7 +78,7 @@ export default function Roadmap() {
   // Initialize with the first original item
   useEffect(() => {
     setActiveIndex(initialIndex);
-  }, []);
+  }, [initialIndex]);
 
   // Handle circular infinite scrolling logic
   useEffect(() => {
@@ -124,23 +124,6 @@ export default function Roadmap() {
     }
     
     setActiveIndex(prev => prev + 1);
-    
-    setTimeout(() => {
-      setIsAnimating(false);
-    }, 300);
-  };
-
-  const handlePrev = () => {
-    if (isAnimating) return;
-    
-    setIsAnimating(true);
-    
-    // If reaching the duplicated area at the beginning, prepare for the jump
-    if (activeIndex === preItemsCount) {
-      setIsInfiniteJump(true);
-    }
-    
-    setActiveIndex(prev => prev - 1);
     
     setTimeout(() => {
       setIsAnimating(false);

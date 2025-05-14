@@ -5,11 +5,10 @@ import React, { useState, useEffect } from "react";
 export default function ESLintTest() {
   const [count, setCount] = useState(0);
   
-  // This is purposely wrong to test ESLint
+  // Fixed the missing dependency
   useEffect(() => {
     console.log(count);
-    // Missing dependency intentionally
-  }, []);
+  }, [count]);
   
   return (
     <div>
