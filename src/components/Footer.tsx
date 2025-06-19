@@ -103,12 +103,12 @@ export default function Footer() {
             </Heading>
             <ul className="space-y-2">
               <li>
-                <a href="https://www.dextools.io/app/en/pairs" target="_blank" rel="noopener noreferrer" className="text-sm text-foreground/70 hover:text-primary font-poppins">
+                <a href="https://www.dextools.io/app/en/bnb/pair-explorer/0xccbf155b294750ce3eafa1373c180d9c57749387?t=1750320760495" target="_blank" rel="noopener noreferrer" className="text-sm text-foreground/70 hover:text-primary font-poppins">
                   DexTools
                 </a>
               </li>
               <li>
-                <a href="https://dexscreener.com/" target="_blank" rel="noopener noreferrer" className="text-sm text-foreground/70 hover:text-primary font-poppins">
+                <a href="https://dexscreener.com/bsc/0xccbf155b294750ce3eafa1373c180d9c57749387" target="_blank" rel="noopener noreferrer" className="text-sm text-foreground/70 hover:text-primary font-poppins">
                   DEX Screener
                 </a>
               </li>
