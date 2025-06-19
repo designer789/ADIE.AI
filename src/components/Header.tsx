@@ -186,7 +186,7 @@ export default function Header() {
 
               {/* DexTools Icon */}
               <a 
-                href="https://www.dextools.io/app/en/pairs" 
+                href="https://www.dextools.io/app/en/bnb/pair-explorer/0xccbf155b294750ce3eafa1373c180d9c57749387?t=1750320760495" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-foreground hover:text-primary transition-colors"
@@ -203,7 +203,7 @@ export default function Header() {
               
               {/* DEX Screener Icon */}
               <a 
-                href="https://dexscreener.com/" 
+                href="https://dexscreener.com/bsc/0xccbf155b294750ce3eafa1373c180d9c57749387" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-foreground hover:text-primary transition-colors"
